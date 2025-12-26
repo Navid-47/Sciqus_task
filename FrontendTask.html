@@ -194,13 +194,13 @@
             <div id="myCarousel" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://via.placeholder.com/600x200?text=Slide+1" class="d-block w-100" alt="Slide 1">
+                        <img src="img/1.jpg" class="d-block w-100" alt="Slide 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://via.placeholder.com/600x200?text=Slide+2" class="d-block w-100" alt="Slide 2">
+                        <img src="img/2.jpg" class="d-block w-100" alt="Slide 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://via.placeholder.com/600x200?text=Slide+3" class="d-block w-100" alt="Slide 3">
+                        <img src="img/3.jpg" class="d-block w-100" alt="Slide 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -235,7 +235,7 @@
         
         <div class="container-card">
             <h4>Container 4: Static Content</h4>
-            <p>Some static text with an image: <img src="https://via.placeholder.com/150?text=Image" alt="Sample Image" style="max-width: 100%; height: auto;"></p>
+            <p>Some static text with an image: <img src="img/1.jpg" alt="Sample Image" style="max-width: 100%; height: auto;"></p>
         </div>
 
         
@@ -302,7 +302,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             var myCarousel = document.querySelector('#myCarousel');
             var carousel = new bootstrap.Carousel(myCarousel, {
-                interval: 3500 // Change slide every 3.5 seconds
+                interval: 2000 // Change slide every 2 seconds
             });
         });
     </script>
